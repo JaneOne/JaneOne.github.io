@@ -124,9 +124,9 @@ header .site-title span
 header .profile-icon
 {
     margin: 30px auto;
-    -webkit-border-radius: 30%;
-       -moz-border-radius: 30%;
-            border-radius: 30%;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
 }
 header p
 {
