@@ -1,57 +1,55 @@
-@charset "UTF-8";    /* 文字コードの指定 */
+@charset "UTF-8";
+/* 文字コードの指定 */
 
-@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+@import 'https://fonts.googleapis.com/css?family=Abel';
+/* Google Fonts用のCSSを読み込み */
 
 /* ベースカラー gray #F2F2F2、サブカラー light blue #B3DFD8、アクセントカラー orange #F25C05 */
+
 /* 色の決めるイメージ：洗練だけど暖かい。明るくて希望を感させる色。 */
 
-html
-{
+html {
     font-size: 62.5%;
 }
 
-body
-{
+body {
     font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
     letter-spacing: .1em;
     color: #4c4c4c;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
-a
-{
+a {
     text-decoration: none;
 
     color: #14c0c9;
 }
-a:visited
-{
+
+a:visited {
     color: #0f949b;
 }
-a:hover
-{
+
+a:hover {
     color: #0f949b;
 }
-a:active
-{
+
+a:active {
     color: #16d6e0;
 }
-a:hover
-{
+
+a:hover {
     text-decoration: underline;
 }
 
-.text-center
-{
+.text-center {
     text-align: center;
 }
 
 .block-center,
 section .container,
-#skills i
-{
+#skills i {
     display: block;
 
     margin-right: auto;
@@ -61,21 +59,18 @@ section .container,
 .abel,
 section h2,
 #skills h3,
-#works .works-box a .works-box-inner .button-readmore
-{
+#works .works-box a .works-box-inner .button-readmore {
     font-family: 'Abel', sans-serif;
 }
 
 .uppercase,
 section h2,
 #skills h3,
-#works .works-box a .works-box-inner .button-readmore
-{
+#works .works-box a .works-box-inner .button-readmore {
     text-transform: uppercase;
 }
 
-.button-contact
-{
+.button-contact {
     font-size: 20px;
     line-height: 0;
     display: block;
@@ -88,98 +83,97 @@ section h2,
     color: #F25C05;
     border: 2px solid #B3DFD8;
     -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
-.button-contact:visited
-{
+
+.button-contact:visited {
     color: #4c4c4c;
 }
+
 .button-contact:hover,
-.button-contact:active
-{
+.button-contact:active {
     color: #fff;
     background-color: #4c4c4c;
 }
 
-header .profile
-{
+header .profile {
     clear: both;
     width: 60%;
     margin: 0 auto;
     padding: 60px 0;
 }
-header .site-title
-{
+
+header .site-title {
     font-size: 1.8rem;
     line-height: normal;
 }
-header .site-title span
-{
+
+header .site-title span {
     font-size: 4.2rem;
     display: block;
 
     color: #F25C05;
 }
-header .profile-icon
-{
+
+header .profile-icon {
     margin: 30px auto;
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
-header p
-{
+
+header p {
     font-size: 1.6rem;
 }
-section
-{
+
+section {
     padding: 60px 0;
 }
-section .container
-{
+
+section .container {
     width: 90%;
 }
-section h2
-{
+
+section h2 {
     font-size: 3.2rem;
-      color: #F25C05;
+    color: #F25C05;
 }
-#skills
-{
+
+#skills {
     background-color: #B3DFD8;
 }
-#skills .container
-{
+
+#skills .container {
     display: -webkit-flex;
-    display:         flex;
+    display: flex;
     justify-content: space-between;
 }
-#skills h2
-{
+
+#skills h2 {
     margin-bottom: 60px;
     color: #F25C05;
 }
-#skills .skill-box
-{
+
+#skills .skill-box {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     -webkit-flex: 1;
-            flex: 1;
+    flex: 1;
     margin: 0px 10px;
     padding: 20px;
     -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     background-color: #F2F2F2;
 }
-#skills i
-{
+
+#skills i {
     font-size: 4.5rem;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 80px;
     height: 80px;
     margin-bottom: 5px;
@@ -187,39 +181,38 @@ section h2
     text-align: center;
     color: #fff;
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     background-color: #F25C05;
 }
-#skills h3
-{
+
+#skills h3 {
     font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: #F25C05;
 }
-#works
-{
+
+#works {
     padding-bottom: 0;
 }
-#works h2
-{
+
+#works h2 {
     margin-bottom: 50px;
 }
-#works .works-box
-{
+
+#works .works-box {
     float: left;
     width: 33.33333%;
     height: 100%;
 }
 
-#works .works-box a
-{
+#works .works-box a {
     position: relative;
     display: block;
 }
-#works .works-box a .works-box-inner
-{
+
+#works .works-box a .works-box-inner {
     position: absolute;
     top: 0;
     left: 0;
@@ -228,8 +221,8 @@ section h2
     color: #fff;
     background-color: rgba(0, 0, 0, .7);
 }
-#works .works-box a .works-box-inner div
-{
+
+#works .works-box a .works-box-inner div {
     position: absolute;
     top: 0;
     right: 0;
@@ -239,20 +232,20 @@ section h2
     margin: auto;
     padding: 10px 20px;
 }
-#works .works-box a .works-box-inner h3
-{
+
+#works .works-box a .works-box-inner h3 {
     font-size: 1.6rem;
     font-weight: bold;
     margin: 0 0 5px;
 }
-#works .works-box a .works-box-inner small
-{
+
+#works .works-box a .works-box-inner small {
     font-size: 1rem;
     display: block;
     margin-bottom: 15px;
 }
-#works .works-box a .works-box-inner .button-readmore
-{
+
+#works .works-box a .works-box-inner .button-readmore {
     font-size: 1rem;
     font-weight: bold;
     display: block;
@@ -262,78 +255,76 @@ section h2
     text-align: center;
     color: #fff;
     -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     background-color: #B3DFD8;
 }
-#works .works-box a .works-box-inner .button-readmore:hover
-{
+
+#works .works-box a .works-box-inner .button-readmore:hover {
     background-color: #F25C05;
 }
-#works .works-box a:hover .works-box-inner
-{
+
+#works .works-box a:hover .works-box-inner {
     display: block;
     width: 100%;
 }
-#works .works-box img
-{
+
+#works .works-box img {
     display: block;
     max-width: 100%;
 }
 
-#works::after
-{
+#works::after {
     display: block;
     clear: both;
     content: '';
 }
-#contact ul
-{
+
+#contact ul {
     margin-top: 60px;
     text-align: center;
 }
-#contact ul li
-{
+
+#contact ul li {
     font-size: 2.8rem;
     display: inline-block;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin-right: 20px;
     text-align: center;
     vertical-align: top;
 }
-#contact ul li:last-child
-{
+
+#contact ul li:last-child {
     margin-right: 0;
 }
+
 #contact ul .github,
-#contact ul .skype
-{
+#contact ul .skype {
     font-size: 3.2rem;
 }
-#contact ul .github i
-{
+
+#contact ul .github i {
     margin-left: 2px;
 }
-#contact ul a
-{
+
+#contact ul a {
     display: block;
     width: 50px;
     height: 50px;
     color: #fff;
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     background-color: #F25C05;
 }
-#contact ul a:hover
-{
+
+#contact ul a:hover {
     background-color: #B3DFD8;
 }
 
-footer
-{
+footer {
     padding: 10px 0;
     text-align: center;
     color: #fff;
